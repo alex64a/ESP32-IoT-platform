@@ -1,12 +1,15 @@
 # ESP32 IOT Project
 
-This is a project developed with an ESP32 microcontroller and sensors
+This is an IOT project developed with an ESP32 microcontroller and sensors.
+The objective of this project is to collect sensor data from the microcontroller and to store it to a cloud database (InfluxDB). The collected data is then sent to an online visualisation platform Grafana for better presentation of the collected data. 
 
 ## Requirements
 
  Software: 
 
- * Arduino IDE https://www.arduino.cc/en/software
+ * Arduino IDE: https://www.arduino.cc/en/software
+ * InfluxDB: https://www.influxdata.com/
+ * Grafana: https://grafana.com/
 
  Hardware: 
 
