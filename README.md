@@ -1,6 +1,45 @@
-# ESP32
-ESP32 sensor data IoT
+# ESP32 IOT Project
 
-#INFO:
-A project involving an ESP32 microcontroler with sensors (DHT11 temperature and humidity sensor) and others.
-The objective of this IoT project is to send sensor data via ESP32 to a database on InfluxDB. This data is used and processed to a virtual environment for displaying. The chosen environment for the data visualisation from our sensors is Grafana.
+This is a project developed with an ESP32 microcontroller and sensors
+
+## Requirements
+
+ Software: 
+
+ * Arduino IDE https://www.arduino.cc/en/software
+
+ Hardware: 
+
+ 1. ESP32 microcontroller
+ 2. DHT11 Temperature and humidity sensor 
+ 3. Sound sensor 
+ 4. Other sensors
+    
+
+## Hardware wiring 
+
+   DHT11:
+   
+   * GND -> GND 
+   * VCC -> VCC
+   * DOUT -> GPIO4
+   
+
+
+ Sound sensor:
+  
+   * GND -> GND 
+   * VCC -> VCC
+   * OUT -> GPIO18
+
+
+
+## Installation
+
+1. Clone the git repository
+2. Upload the code to the microcontroller via Arduino IDE
+
+## Credits
+
+Prof. dr. Ivan Mezei
+
