@@ -21,7 +21,7 @@ The objective of this project is to collect sensor data from the microcontroller
 
 ## Hardware wiring 
 
-   DHT11:
+   DHT11 to ESP32:
    
    * GND -> GND 
    * VCC -> VCC
@@ -29,7 +29,7 @@ The objective of this project is to collect sensor data from the microcontroller
    
 
 
- Sound sensor:
+ Sound sensor to ESP32:
   
    * GND -> GND 
    * VCC -> VCC
